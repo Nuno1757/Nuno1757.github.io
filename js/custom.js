@@ -54,23 +54,8 @@
     window.open("formulario_de_login.html", "loginForm", "width=400,height=500");
 }
 
-  function transfer_item(element) {
-    if(element.innerText == 1){
-      console.log("It is 1");
-      $(document.getElementsByClassName('page-item active')[0]).removeClass('active');
-      $(element).toggleClass('active');
-      console.log(element);
-    }
-    else if(element.innerText == 2){
-      console.log("It is 2");
-      $(document.getElementsByClassName('page-item active')[0]).removeClass('active');
-      $(element).toggleClass('active');
-      console.log(element);
-    }
-    else if(element.innerText == 3){
-      console.log("It is 3");
-      $(document.getElementsByClassName('page-item active')[0]).removeClass('active');
-      $(element).toggleClass('active');
-      console.log(element);
-    }
+
+  function heart_toggle(element){
+    $(element).toggleClass('bi-heart');
+    $(element).toggleClass('bi-heart-fill');
   }

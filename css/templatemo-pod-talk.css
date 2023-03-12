@@ -1287,3 +1287,8 @@ main {
         min-height: 480px;
         position: relative;
 }
+
+
+.me-1{
+  cursor: pointer !important;
+}
