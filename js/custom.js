@@ -55,7 +55,7 @@
 }
 
 
-  function heart_toggle(element){
+  function toggle_heart(element){
     $(element).toggleClass('bi-heart');
     $(element).toggleClass('bi-heart-fill');
   }
